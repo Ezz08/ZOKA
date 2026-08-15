@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --FS: 2.5rem;
+    --DKBLUE: #1A093C;
+    --GRAY: #787282;
+    --BLACK: #000000;
+    --BLUE: #3F41A6;
+    --WHITE: #FFFFFF;
+}
+
+body {
+    font-size: var(--FS);
+    min-height: 100vh;
+    background-color: var(--WHITE);
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.7rem;
+}
+
+.header__logo {
+    margin-left: 150px;
+
+}
+
+.header__logo h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--BLACK);
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.header__logo h2:hover {
+    transform: rotate(360deg);
+}
+
+.header__nav__text {
+    display: flex;
+    gap: 7rem;
+}
+
+.header__nav__text a {
+    color: var(--GRAY);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.header__nav a:hover,
+a:focus {
+    color: var(--DKBLUE);
+    transform: translateY(-2px);
+}
+
+.header__button {
+    margin-right: 150px;
+    border: 4px solid var(--BLUE);
+    border-radius: 32px;
+    padding: 1.2rem;
+}
+
+.header__button a {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    color: var(--BLUE);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+.header__button img {
+    width: 52px;
+    height: auto;
+    padding-left: 2px;
+    transition: 0.2s;
+}
+
+.header__button img:hover {
+    transform: rotate(360deg);
+}
+
+.header__button a:hover {
+    transform: translateY(-2px);
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-top: 17rem;
+    margin-bottom: 22rem;
+}
+
+.hero__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    margin-right: 10rem;
+    width: 1200px;
+    height: 1400px;
+}
+
+.hero__images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 27px;
+}
+
+.hero__images img:first-child {
+    grid-column: 1/6;
+}
+
+.hero__images img:last-child{
+    grid-column: -1/6;
+}
+
+.hero__images img:nth-child(2){
+    width: 510px;
+}
+
+
+.hero__texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__texts h1 {
+    font-size: 186px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 50%;
+    margin-left: 150px;
+    color: var(--DKBLUE);
+}
+
+.hero__texts p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--GRAY);
+    margin-left: 150px;
+    width: 50%;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.hero__button {
+    background-color: var(--BLUE);
+    border-radius: 70px;
+    padding: 3rem;
+    margin-left: 150px;
+    width: 460px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.hero__button a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--WHITE);
+    font-size: 2rem;
+    transition: 0.2s;
+}
+
+.hero__button span {
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9fc68;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.hero__button a:hover {
+    transform: translateY(-2px);
+}
+
+.hero__texts__hero-title .word {
+    display: block;
+    white-space: nowrap;
+}
+
+.hero__texts__hero-title span span{
+    display: inline-block;
+}
+
+.hero__texts__hero-title span span:hover{
+    transition: 0.6s;
+    animation: letterMove 0.45s ease-in-out;
+    color: #3F41A6;
+}
+
+@keyframes letterMove {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-19px);
+    }
+
+    45% {
+        transform: translateX(12px);
+    }
+
+    65% {
+        transform: translateX(-4px);
+    }
+
+    82% {
+        transform: translateX(2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* KNOWUS */
