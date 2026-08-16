@@ -115,7 +115,7 @@ a:focus {
     justify-content: space-between;  
     align-items: center;
     margin-top: 17rem;
-    margin-bottom: 22rem;
+    margin-bottom: 35rem;
 }
 
 .hero__images {
@@ -251,3 +251,121 @@ a:focus {
 }
 
 /* KNOWUS */
+
+.KnowUs{
+    margin-bottom: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.KnowUs__texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20rem;
+}
+
+.KnowUs__texts h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--BLUE);
+  margin-left: 9.5rem;
+}
+
+.KnowUs__texts h2{
+    font-size: 146px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 88%;
+    margin-left: 150px;
+    color: var(--DKBLUE);
+}
+
+.KnowUs__texts p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--GRAY);
+    margin-left: 160px;
+    width: 40%;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.KnowUs__button {
+    background-color: var(--BLUE);
+    border-radius: 70px;
+    padding: 3rem;
+    margin-left: 150px;
+    width: 460px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.KnowUs__button a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--WHITE);
+    font-size: 2rem;
+    transition: 0.2s;
+}
+
+.KnowUs__button span{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9fc68;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.KnowUs__button a:hover {
+    transform: translateY(-2px);
+}
+
+.KnowUs__texts__title .word {
+    white-space: nowrap;
+}
+
+.KnowUs__texts__title span span{
+    display: inline-block;
+}
+
+.KnowUs__texts__title span span:hover{
+    transition: 0.6s;
+    animation: letterMove 0.45s ease-in-out;
+    color: #3F41A6;
+}
+
+@keyframes letterMove {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-19px);
+    }
+
+    45% {
+        transform: translateX(12px);
+    }
+
+    65% {
+        transform: translateX(-4px);
+    }
+
+    82% {
+        transform: translateX(2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
