@@ -112,7 +112,7 @@ a:focus {
 
 .hero {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     align-items: center;
     margin-top: 17rem;
     margin-bottom: 35rem;
@@ -138,11 +138,11 @@ a:focus {
     grid-column: 1/6;
 }
 
-.hero__images img:last-child{
+.hero__images img:last-child {
     grid-column: -1/6;
 }
 
-.hero__images img:nth-child(2){
+.hero__images img:nth-child(2) {
     width: 510px;
 }
 
@@ -214,11 +214,11 @@ a:focus {
     white-space: nowrap;
 }
 
-.hero__texts__hero-title span span{
+.hero__texts__hero-title span span {
     display: inline-block;
 }
 
-.hero__texts__hero-title span span:hover{
+.hero__texts__hero-title span span:hover {
     transition: 0.6s;
     animation: letterMove 0.45s ease-in-out;
     color: #3F41A6;
@@ -259,7 +259,7 @@ a:focus {
     padding: 0 5rem;
 }
 
-.KnowUs__texts{
+.KnowUs__texts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -267,15 +267,15 @@ a:focus {
     width: 95%;
 }
 
-.KnowUs__texts h4{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  color: var(--BLUE);
-  margin-left: 9.5rem;
+.KnowUs__texts h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--BLUE);
+    margin-left: 9.5rem;
 }
 
-.KnowUs__texts h2{
+.KnowUs__texts h2 {
     font-size: 146px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -285,7 +285,7 @@ a:focus {
     color: var(--DKBLUE);
 }
 
-.KnowUs__texts p{
+.KnowUs__texts p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -307,7 +307,7 @@ a:focus {
     margin-top: 5rem;
 }
 
-.KnowUs__button a{
+.KnowUs__button a {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -317,7 +317,7 @@ a:focus {
     transition: 0.2s;
 }
 
-.KnowUs__button span{
+.KnowUs__button span {
     display: inline-flex;
     width: 45px;
     height: 45px;
@@ -336,41 +336,16 @@ a:focus {
     white-space: nowrap;
 }
 
-.KnowUs__texts__title span span{
+.KnowUs__texts__title span span {
     display: inline-block;
 }
 
-.KnowUs__texts__title span span:hover{
+.KnowUs__texts__title span span:hover {
     transition: 0.6s;
     animation: letterMove 0.45s ease-in-out;
     color: #3F41A6;
 }
 
-@keyframes letterMove {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-19px);
-    }
-
-    45% {
-        transform: translateX(12px);
-    }
-
-    65% {
-        transform: translateX(-4px);
-    }
-
-    82% {
-        transform: translateX(2px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
 
 .KnowUs__images {
     display: flex;
@@ -384,27 +359,124 @@ a:focus {
     border-radius: 35px;
 }
 
-.KnowUs__images__leaves{
+.KnowUs__images__leaves {
     display: flex;
     flex-direction: column;
     row-gap: 4rem;
 }
 
-.KnowUs__images__leaves img:first-child{
+.KnowUs__images__leaves img:first-child {
     width: 12rem;
 }
 
-.KnowUs__images__leaves img:nth-child(2){
+.KnowUs__images__leaves img:nth-child(2) {
     width: 32rem;
 }
 
-.KnowUs__images__leaves img:nth-child(3){
+.KnowUs__images__leaves img:nth-child(3) {
     width: 32rem;
 }
 
-.KnowUs__images__leaves img:last-child{
+.KnowUs__images__leaves img:last-child {
     width: 12rem;
     margin-left: 20rem;
 }
 
+/* Benefits */
 
+.WhyUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35rem;
+}
+
+.WhyUs__details {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.WhyUs__heading {
+    margin-bottom: 8rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--DKBLUE);
+}
+
+.WhyUs__heading .word {
+    white-space: nowrap;
+}
+
+.WhyUs__heading span span {
+    display: inline-block;
+}
+
+.WhyUs__heading span span:hover {
+    transition: 0.6s;
+    animation: letterMove 0.45s ease-in-out;
+    color: #3F41A6;
+}
+
+.WhyUs__details p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--GRAY);
+    font-size: 2rem;
+}
+
+.WhyUs__details h4 {
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+
+}
+
+.WhyUs__details p span {
+    margin-left: 5rem;
+}
+
+.WhyUs__details h4,
+p {
+    width: 60%;
+}
+
+.WhyUs__details img {
+    margin-left: 8rem;
+    border-radius: 50%;
+    border: 32px solid white;
+    margin-bottom: 2.5rem;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
+}
+
+.WhyUs__box-1__icon-1 img {
+    margin-left: 10rem;
+}
+
+.WhyUs__box-3__icon-3 img {
+    margin-left: 9rem;
+}
+
+
+
+.WhyUs__box-1 {
+    margin-left: 20rem;
+}
+
+.WhyUs__box-1 h4 {
+    margin-left: 5rem;
+}
+
+.WhyUs__box-2__icon-2 img {
+    margin-left: 9rem;
+}
+
+.WhyUs__box-2 h4 {
+    margin-left: 5.5rem;
+}
