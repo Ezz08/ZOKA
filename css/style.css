@@ -559,7 +559,7 @@ p {
     margin-left: 52rem;
 }
 
-.projects__main{
+.projects__main {
     display: flex;
     justify-content: space-between;
 }
@@ -596,7 +596,7 @@ p {
     width: 100%;
     padding-left: 72rem;
     margin-top: -25rem;
-    
+
 }
 
 .projects__acheivements h2 {
@@ -634,16 +634,16 @@ p {
     color: #3F41A6;
 }
 
-.flowers{
+.flowers {
     margin-left: 270px;
     margin-bottom: 35rem;
 }
 
-.flowers__texts{
+.flowers__texts {
     width: 50%;
 }
 
-.flowers__texts h2{
+.flowers__texts h2 {
     font-size: 90px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -666,7 +666,7 @@ p {
     color: #3F41A6;
 }
 
-.flowers__texts p{
+.flowers__texts p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -687,7 +687,7 @@ p {
 
 }
 
-.flowers__button a{
+.flowers__button a {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -697,11 +697,11 @@ p {
     transition: 0.2s;
 }
 
-.flowers__button a:hover{
+.flowers__button a:hover {
     transform: translateY(-2px);
 }
 
-.flowers__button span{
+.flowers__button span {
     display: inline-flex;
     width: 45px;
     height: 45px;
@@ -712,32 +712,32 @@ p {
     font-weight: 400;
 }
 
-.flowers__images{
+.flowers__images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 12rem;
 }
 
-.flowers__images img{
+.flowers__images img {
     border-radius: 20px;
     width: 33rem;
 }
 
-.second__image{
+.second__image {
     position: relative;
     bottom: 15rem;
     right: 12rem;
 }
 
-.third__image{
+.third__image {
     position: relative;
     bottom: 30rem;
     right: 25rem;
 }
 
 
-.date{
+.date {
     font-size: 70px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -745,20 +745,20 @@ p {
     color: var(--DKBLUE);
 }
 
-.numbers{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 32px;
+.numbers {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
 }
 
-.AwesomeWorks{
+.AwesomeWorks {
     margin-left: 270px;
     margin-bottom: 35rem;
-    
+
 }
 
-.AwesomeWorks__texts h2{
+.AwesomeWorks__texts h2 {
     font-size: 90px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -780,7 +780,7 @@ p {
     color: #3F41A6;
 }
 
-.AwesomeWorks__texts p{
+.AwesomeWorks__texts p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -790,7 +790,7 @@ p {
     font-size: 2rem;
 }
 
-.AwesomeWorks__images{
+.AwesomeWorks__images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
@@ -799,10 +799,86 @@ p {
     row-gap: 1rem;
     right: 3.5rem;
     margin-inline: 2.5rem;
-    
+
 }
 
-.AwesomeWorks__images img{
+.AwesomeWorks__images img {
     width: 44rem;
-    
+
+}
+
+.GetStarted {
+    background-color: #431898;
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12rem;
+    padding-bottom: 5rem;
+    margin-bottom: 35rem;
+}
+
+.GetStarted__texts h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6rem;
+    color: var(--WHITE);
+    white-space: nowrap;
+
+}
+
+.GetStarted__texts p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--WHITE);
+    width: 90%;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.GetStarted__button {
+    background-color: var(--WHITE);
+    border-radius: 70px;
+    padding: 3rem;
+    width: 460px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.GetStarted__button a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--BLACK);
+    font-size: 2rem;
+    transition: 0.2s;
+}
+
+.GetStarted__button span {
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000006e;
+    border-radius: 50%;
+    color: var(--WHITE);
+    font-weight: 400;
+}
+
+.GetStarted__button a:hover {
+    transform: translateY(-2px);
+}
+
+.GetStarted__image img {
+    width: 55rem;
+    position: relative;
+    left: 19rem;
+    bottom: 17rem;
 }
