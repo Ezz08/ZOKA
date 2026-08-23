@@ -882,3 +882,41 @@ p {
     left: 19rem;
     bottom: 17rem;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 12rem;
+    margin-bottom: 5rem;
+}
+
+.footer h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #3C3842;
+    font-size: 2rem;
+
+}
+
+.footer__nav__text {
+    display: flex;
+    gap: 5rem;
+}
+
+.footer__nav__text a {
+    text-decoration: none;
+    color: #3C3842;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+
+}
+
+.footer__nav__text a:hover,
+a:focus {
+    color: var(--DKBLUE);
+    transform: translateY(-2px);
+}
