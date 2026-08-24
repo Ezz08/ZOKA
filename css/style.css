@@ -924,6 +924,10 @@ a:focus {
 
 @media (max-width: 768px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     .header {
         gap: 8rem;
     }
