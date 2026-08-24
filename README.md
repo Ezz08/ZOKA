@@ -69,3 +69,8 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 * Google Fonts — Poppins
 * Unsplash — Photography images used throughout the project
 * Inspiration from modern photography and creative portfolio website designs
+
+## Note
+
+For the best viewing experience, set your browser zoom level to **50%** when viewing the website on a desktop screen.
+
