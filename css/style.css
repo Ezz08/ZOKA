@@ -929,6 +929,10 @@ a:focus {
     }
 
     .header {
+        gap: 2rem;
+    }
+
+    .header__nav__text{
         gap: 4rem;
     }
 
@@ -972,7 +976,7 @@ a:focus {
 
     .WhyUs__details {
         display: flex;
-        gap: 10rem;
+        gap: 3rem;
     }
 
     .WhyUs__heading h1 {
