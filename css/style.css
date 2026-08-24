@@ -934,6 +934,7 @@ a:focus {
 
     .header__nav__text{
         gap: 4rem;
+        margin: 0 4rem;
     }
 
     .hero {
