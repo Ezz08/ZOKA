@@ -972,7 +972,7 @@ a:focus {
 
     .WhyUs__details {
         display: flex;
-        gap: 17rem;
+        gap: 10rem;
     }
 
     .WhyUs__heading h1 {
