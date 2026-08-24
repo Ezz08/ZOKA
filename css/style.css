@@ -920,3 +920,170 @@ a:focus {
     color: var(--DKBLUE);
     transform: translateY(-2px);
 }
+
+
+@media (max-width: 768px) {
+
+    .header {
+        gap: 8rem;
+    }
+
+    .hero {
+        flex-direction: column;
+
+    }
+
+    .hero__texts {
+        margin-left: 32rem;
+
+    }
+
+    .hero__images {
+        margin-top: 20rem;
+        margin-left: 82rem;
+    }
+
+    .KnowUs {
+        margin-bottom: 135rem;
+    }
+
+    .KnowUs__images {
+        position: relative;
+        top: 100rem;
+
+    }
+
+    .KnowUs__texts {
+        position: relative;
+        right: 36rem;
+        width: 80rem;
+
+    }
+
+    .WhyUs {
+        position: relative;
+        left: 24rem;
+        text-align: center;
+    }
+
+    .WhyUs__details {
+        display: flex;
+        gap: 17rem;
+    }
+
+    .WhyUs__heading h1 {
+        position: relative;
+        left: 16rem;
+        text-align: center;
+    }
+
+    .WhyUs__box-3 h4 {
+        position: relative;
+        left: 5rem;
+    }
+
+    .WhyUs__box-3 p {
+        position: relative;
+        left: 7rem;
+    }
+
+    .WhyUs__box-3 p span {
+        position: relative;
+        right: 3rem;
+    }
+
+    .lol3 {
+        position: relative;
+        left: 0.5rem;
+    }
+
+    .WhyUs__box-2 h4 {
+        position: relative;
+        left: 3.5rem;
+    }
+
+    .WhyUs__box-2 p {
+        position: relative;
+        left: 7rem;
+    }
+
+    .WhyUs__box-2 p span {
+        position: relative;
+        right: 3rem;
+    }
+
+    .lol2 {
+        position: relative;
+        left: 0.5rem;
+    }
+
+
+    .WhyUs__box-1 h4 {
+        position: relative;
+        left: 4.5rem;
+    }
+
+    .WhyUs__box-1 p {
+        position: relative;
+        left: 7rem;
+    }
+
+    .WhyUs__box-1 p span {
+        position: relative;
+        right: 3rem;
+    }
+
+    .lol1 {
+        position: relative;
+        left: 0.2rem;
+    }
+
+    .WhyUs__details p {
+        width: 17rem;
+
+    }
+
+    .projects__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects__images{
+        position: relative;
+        top: 42rem;
+    }
+
+    .projects__texts {
+        width: 100%;
+        margin-left: 10rem;
+        position: relative;
+        bottom: 92rem;
+    }
+
+    .projects__texts h1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .projects__texts p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .projects__acheivements {
+        margin-top: 3rem;
+        padding-right: 122rem;
+        display: flex;
+        gap: 1px;
+        justify-content: center;
+
+    }
+
+
+    .projects_acheivements__section-3 {
+        padding-right: 52rem;
+
+    }
+
+}
