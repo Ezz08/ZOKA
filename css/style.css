@@ -1143,22 +1143,22 @@ a:focus {
         padding: 28rem 0;
     }
 
-    .GetStarted__texts{
+    .GetStarted__texts {
         position: relative;
         left: 4rem;
     }
 
-    .GetStarted__button{
+    .GetStarted__button {
         position: relative;
         bottom: 3rem;
     }
 
     .GetStarted__texts h2 {
-        width: 100%; 
+        width: 100%;
     }
 
     .GetStarted__texts p {
-        width: 44rem; 
+        width: 44rem;
     }
 
 
@@ -1168,6 +1168,24 @@ a:focus {
         right: 16rem;
         top: 17rem;
 
+    }
+
+    .footer {
+        margin-bottom: 40rem;
+        display: block;
+        width: 190%;
+    }
+
+    .footer h4 {
+        position: relative;
+        bottom: 6rem;
+        left: 12rem;
+    }
+
+
+    .footer__nav {
+        position: relative;
+        left: 8rem;
     }
 
 }
