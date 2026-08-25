@@ -924,7 +924,7 @@ a:focus {
 
 @media (max-width: 768px) {
 
-    body{
+    body {
         overflow-x: hidden;
     }
 
@@ -932,7 +932,7 @@ a:focus {
         gap: 2rem;
     }
 
-    .header__nav__text{
+    .header__nav__text {
         gap: 4rem;
         margin: 0 4rem;
     }
@@ -1058,7 +1058,7 @@ a:focus {
         align-items: center;
     }
 
-    .projects__images{
+    .projects__images {
         position: relative;
         top: 42rem;
     }
@@ -1095,32 +1095,46 @@ a:focus {
 
     }
 
-    .flowers__texts{
+    .flowers__texts {
         width: 64rem;
         position: relative;
         right: 12rem;
     }
 
-    .flowers__button{
+    .flowers__button {
         position: relative;
         right: 12rem;
     }
-    
-    .flowers__images{
+
+    .flowers__images {
         display: flex;
         gap: 17rem;
     }
 
-    .flowers__images img{
+    .flowers__images img {
         width: 25rem;
         position: relative;
         top: 22rem;
         right: 14rem;
     }
 
-    .date{
+    .date {
         position: relative;
         top: 23rem;
     }
+
+    .AwesomeWorks__texts {
+        width: 55rem;
+        position: relative;
+        right: 14rem;
+    }
+
+    .AwesomeWorks__images img {
+        width: 25rem;
+        position: relative;
+        right: 13.5rem;
+    }
+
+    
 
 }
