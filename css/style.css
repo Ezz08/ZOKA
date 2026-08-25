@@ -1135,6 +1135,39 @@ a:focus {
         right: 13.5rem;
     }
 
-    
+    .GetStarted {
+        width: 100rem;
+        position: relative;
+        right: 2rem;
+        height: 100vh;
+        padding: 28rem 0;
+    }
+
+    .GetStarted__texts{
+        position: relative;
+        left: 4rem;
+    }
+
+    .GetStarted__button{
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .GetStarted__texts h2 {
+        width: 100%; 
+    }
+
+    .GetStarted__texts p {
+        width: 44rem; 
+    }
+
+
+
+    .GetStarted__image {
+        position: relative;
+        right: 16rem;
+        top: 17rem;
+
+    }
 
 }
