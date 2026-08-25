@@ -826,7 +826,7 @@ p {
     font-style: normal;
     font-size: 6rem;
     color: var(--WHITE);
-    white-space: nowrap;
+    width: 70%;
 
 }
 
