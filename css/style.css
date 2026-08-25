@@ -1095,4 +1095,32 @@ a:focus {
 
     }
 
+    .flowers__texts{
+        width: 64rem;
+        position: relative;
+        right: 12rem;
+    }
+
+    .flowers__button{
+        position: relative;
+        right: 12rem;
+    }
+    
+    .flowers__images{
+        display: flex;
+        gap: 17rem;
+    }
+
+    .flowers__images img{
+        width: 25rem;
+        position: relative;
+        top: 22rem;
+        right: 14rem;
+    }
+
+    .date{
+        position: relative;
+        top: 23rem;
+    }
+
 }
